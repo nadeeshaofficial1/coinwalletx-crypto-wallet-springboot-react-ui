@@ -1,6 +1,8 @@
-# CoinWalletX - Crypto Wallet Platfrom
+# CoinWalletX - Crypto Platform [ Microservices Architecture ]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Used Languages
+#### ReactJs
+#### Java
 
 ## Available Scripts
 
