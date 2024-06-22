@@ -1,0 +1,28 @@
+/* ViewPayments.css */
+
+.view-payments-container {
+    font-family: 'SFPRODISPLAYMEDIUM';
+    font-size: 15px;
+  }
+  
+  .view-payments-header {
+    color: #333; /* Choose your desired color */
+  }
+  
+  .payment-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .payment-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd; /* Choose your desired border color */
+    border-radius: 5px;
+    background-color: #f9f9f9; /* Choose your desired background color */
+  }
+  
+  .user-id, .amount, .pay-coin {
+    margin-right: 10px;
+  }
+  

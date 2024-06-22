@@ -1,0 +1,15 @@
+/* fonts.css */
+@font-face {
+    font-family: 'SANGSIE-FONT';
+    src: url('./fonts/SANGSIE-FONT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'SFPRODISPLAYMEDIUM';
+    src: url('./fonts/SFPRODISPLAYMEDIUM.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
