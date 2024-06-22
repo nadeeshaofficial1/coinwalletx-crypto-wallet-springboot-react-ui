@@ -1,72 +1,133 @@
-# CoinWalletX - Crypto Platform [ Microservices Architecture ]
 
-### Used Languages
-#### ReactJs
-#### Java
+# CoinWalletX - Crypto Platform
 
-## Available Scripts
+Welcome to **CoinWalletX**, a powerful and user-friendly crypto platform built using a microservices architecture. This platform offers a seamless interface developed in React JS, a robust backend powered by Java, and MySQL for database management. 
 
-In the project directory, you can run:
+![CoinWalletX UI](https://github.com/nadeeshaofficial1/coinwalletx-crypto-wallet-springboot-react-ui/assets/157035022/7020aeed-6e6a-45ea-bec5-04e1ef84ee6d)
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Architecture](#architecture)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+### 🪙 Coin Management
+- **List Coins:** View all available cryptocurrencies.
+- **Update Coin:** Modify details of a cryptocurrency.
+- **Change Coin Name:** Rename a cryptocurrency.
+- **Adjust Coin Price:** Update the price of a cryptocurrency.
+- **Blockchain Update:** Modify the blockchain associated with a cryptocurrency.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 💸 Payments
+- **Send Payment:** Transfer cryptocurrencies easily.
+- **Generate QR Code:** Create a QR code for payment addresses.
+- **Scan QR Code:** Scan QR codes to get the UUID for payment addresses.
+- **Check Payments:** Verify payment statuses and history.
 
-### `npm run build`
+### 🎨 Beautiful React JS UI
+- **Responsive Design:** Enjoy a seamless experience across all devices.
+- **User-Friendly Interface:** Navigate the platform with ease.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running follow these simple steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Ensure you have the following installed:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Java 11+
+- Node.js
+- MySQL
+- Maven
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/CoinWalletX.git
+   cd CoinWalletX
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Backend Setup:**
+   - Navigate to the backend directory:
+     ```sh
+     cd backend
+     ```
+   - Build the backend:
+     ```sh
+     mvn clean install
+     ```
+   - Run the backend server:
+     ```sh
+     mvn spring-boot:run
+     ```
 
-## Learn More
+3. **Frontend Setup:**
+   - Navigate to the frontend directory:
+     ```sh
+     cd frontend
+     ```
+   - Install NPM packages:
+     ```sh
+     npm install
+     ```
+   - Start the frontend development server:
+     ```sh
+     npm start
+     ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Database Setup:**
+   - Create a MySQL database:
+     ```sql
+     CREATE DATABASE coinwalletx;
+     ```
+   - Run database migrations (if any).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+- Open your browser and navigate to `http://localhost:3000` to access the CoinWalletX platform.
+- Use the intuitive UI to manage coins, send payments, generate and scan QR codes, and check payments.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Architecture
 
-### Analyzing the Bundle Size
+CoinWalletX is designed with a microservices architecture. Here's a high-level overview:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Frontend:** React JS
+- **Backend:** Java Spring Boot
+- **Database:** MySQL
+- **Microservices:** Independent services for coin management, payments, and user interactions
 
-### Making a Progressive Web App
+![Architecture Diagram](link_to_architecture_diagram.png) <!-- Add an architecture diagram -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Technologies
 
-### Advanced Configuration
+- **Frontend:** React JS, HTML, CSS
+- **Backend:** Java, Spring Boot
+- **Database:** MySQL
+- **Build Tools:** Maven, NPM
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
 
-### Deployment
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
+
+Feel free to replace placeholders like `link_to_screenshot.png` and `link_to_architecture_diagram.png` with actual links or images relevant to your project. This README template should provide a comprehensive overview of your project, making it easy for others to understand and contribute.
