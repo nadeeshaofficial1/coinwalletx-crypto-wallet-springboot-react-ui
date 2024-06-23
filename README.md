@@ -4,7 +4,6 @@
 
 Welcome to **CoinWalletX**, a powerful and user-friendly crypto platform built using a microservices architecture. This platform offers a seamless interface developed in React JS, a robust backend powered by Java, and MySQL for database management. 
 
-### Watch my explanation video - 
 
 ## Coin Repository - (https://github.com/nadeeshaofficial1/coin-backend-coinwalletx-crypto-wallet)
 ## Payment Repository - (https://github.com/nadeeshaofficial1/payment-backend-coinwalletx-crypto-wallet)
